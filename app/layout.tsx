@@ -3,7 +3,8 @@ import "./resources/styles/globals.css";
 import NavBarWrapper from "./components/navbarWrapper";
 export const metadata: Metadata = {
   title: "Bycey Excavations",
-  description: "Earthmoving, Excavation and Watermain Replacement in Victoria",
+  description: "Bycey Excavations provides professional earthmoving, excavation, and waterpipe replacement services across Victoria, Australia. Safe, reliable, and efficient solutions for residential, commercial, and municipal projects.",
+
 };
 
 export default function RootLayout({

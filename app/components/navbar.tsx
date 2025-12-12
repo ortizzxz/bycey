@@ -57,10 +57,12 @@ export default function NavBar() {
                 {/* Container */}
                 <div className="flex justify-between items-center w-full sm:max-w-7xl sm:mx-auto p-4">
                     {/* Logo */}
-                    <div className="flex items-center gap-2">
-                        <Image src="/images/bycey-logo.jpeg" alt="Bycey Excavations Logo" width={40} height={40} />
-                        <h1 className="text-xl">Bycey Excavations</h1>
-                    </div>
+                    <a href="/">
+                        <div className="flex items-center gap-2">
+                            <Image src="/images/bycey-logo.jpeg" alt="Bycey Excavations Logo" width={40} height={40} />
+                            <h1 className="text-xl">Bycey Excavations</h1>
+                        </div>
+                    </a>
 
                     {/* Desktop Nav */}
                     <div className="hidden sm:flex gap-4 items-center">

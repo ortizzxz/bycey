@@ -143,7 +143,7 @@ export default function EarthmovingService() {
         </div>
 
         {/* — Call to Action — */}
-        <div className="bg-yellow-100 p-8 rounded-lg text-center">
+        <div className="bg-yellow-200 p-8 rounded-lg text-center">
           <h2 className="text-2xl text-gray-800 mb-3">
             Ready to Prepare Your Site?
           </h2>
